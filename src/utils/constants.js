@@ -1,8 +1,8 @@
-const SERVER_IP = "localhost:3977";
+const SERVER_IP = "tourman-server.onrender.com";
 
 export const ENV = {
-  BASE_PATH: `http://${SERVER_IP}`,
-  BASE_API: `http://${SERVER_IP}/api/v1`,
+  BASE_PATH: `https://${SERVER_IP}`,
+  BASE_API: `https://${SERVER_IP}/api/v1`,
   API_ROUTES: {
     REGISTER: "auth/register",
     LOGIN: "auth/login",
